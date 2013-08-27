@@ -1,0 +1,31 @@
+csce 896 Project 2
+String Search using Genetic Algorithm
+
+Dongpu Jin
+9/30/2012
+
+How to compile the source? 
+- Log into cse server at unl and go to /hw2 directory. 
+- Type command `make clean'
+- Type command `make'
+
+How to run the program? 
+- If previous steps succeed, type command `./ga' to run the program. 
+
+What to expect? 
+- First, the program asks you for fitness function to use 
+  (i.e. enter 1 to Squared Distance Fitness Function). 
+- After selecting the fitness function will ask you for the 
+  mutation rate (i.e. 0.03). 
+- At the end of execution, the program prints out statistics including
+  fitness function selected, mutation rate, number of iteration, and 
+  time of execution.
+- Fitness statistics of each chromosome in each genertion are saved in 
+  a file named 'data.csv'. 
+  
+How to visualize data? 
+- Make sure file 'visualization.m' is located in the current directory. 
+- Enter Matlab environment by typing command `matlab'.
+- Type `visualization' to run. 
+- Exit Matlab by typing `exit'.. 
+- The 3D graph is saved as 'data.png'. 
